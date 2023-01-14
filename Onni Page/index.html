@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=z, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <header class="header-container">
+    <div class="nav container">
+        <i class='bx bx-menu' id="menu icon"></i>
+        <a href="#" class="logo"><img src="" alt=""></a>
+        <ul class="navbar">
+            <li><a href="#1" class="active">SIGN UP</a></li>
+            <li><a href="#2" class="active">HOW IT WORK</a></li>
+            <li><a href="#3" class="active">OUR CITIES</a></li>
+            <li><a href="#4" class="active">SIGN UP</a></li>
+        </ul>
+        </div>
+    </div>
+</header>
+  <section class="home" id="home">
+    <div class="home-text">
+        <h1>ĐỒ ĂN</h1>
+        <p> Chúng ta có thể làm được và <br>có thể tốt hơn thế nữa</p>
+    </div>
+    </head>
+    <script>
+        let headerContainer = document.querySelector('.header-container')
+        window.onscroll = function() {  
+          changeHeaderWhenScroll()
+        }
+        
+        function changeHeaderWhenScroll() {
+          console.log(true)
+          headerContainer.classList.toggle('shadow', window.scrollY > 0)
+        }
+      </script> 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="main.js"></script>
+  
+    <script>
+    AOS.init();
+</body>
+</html>
