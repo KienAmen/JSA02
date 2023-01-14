@@ -125,3 +125,7 @@ header.shadow #search-icon{
     font-size: 0.938rem;
     font-weight: 300;
 }
+.home2{
+    font-family: 'Courier New', Courier, monospace;
+    text-emphasis-color: var(--main-color);
+}
